@@ -1,0 +1,64 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+
+.half-width p{
+    width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-waver{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange{
+    color: orange;
+}
+.experience{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+}
+#my-dream{
+    border-left: 7px solid;
+    border-image:linear-gradient(cyan,orange);
+    border-image-slice: 1;
+    box-shadow: 0 14px 7px 14px gray;
+    margin: 15px;
+    border-radius: 10px;
+}
+#billionare{
+    border-left: 7px solid;
+border-image:linear-gradient(cyan,rgba(74, 72, 95, 0.842));
+border-image-slice: 1;
+box-shadow: 0 14px 14px 14px gray;
+margin: 15px;
+border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    color: white;
+    font-weight: 800px;
+    padding: 10px 40px;
+    border-radius: 9px;
+}
